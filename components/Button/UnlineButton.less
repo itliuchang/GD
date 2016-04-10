@@ -1,0 +1,21 @@
+@import '../../public/style/main.less';
+body .UnlineButton{
+  display: inline-block;
+  color: @color-text-light;
+  padding:5px;
+  &:active{
+    background-color: @button-hover;
+    border-radius: 5px;
+  }
+  &.act{
+    border-bottom: 2px solid @color-active;
+    color: @color-active;
+  }
+  .content{
+    font-size:@font-xs;
+    height:1.5rem;
+    line-height:1.5rem;
+    text-align: center;
+  }
+
+}

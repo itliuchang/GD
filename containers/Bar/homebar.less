@@ -1,0 +1,40 @@
+@import '../../public/style/main.less';
+.HomeBar{
+  width:100%;
+  background-color: #f8f9fa;
+  .act{
+    a{
+      color: @color-active;
+      border-bottom:2px solid @color-active;
+    }
+  }
+  .follow{
+    display: inline-block;
+    float: right;
+    padding-right:.5rem;
+    a{
+      display: inline-block;
+      padding:1rem 0;
+      font-size: @font-sm;
+      color: @color-text-lighter;
+    }
+  }
+  ul{
+    display: inline-block;
+    margin:0;
+    float: left;
+    li{
+      float:left;
+      padding:0 1rem;
+      }
+      a{
+        display: inline-block;
+        padding: 1rem 0;
+        font-size:@font-sm;
+        color:@color-text-lighter;
+        &.act{
+          color: @color-active;
+        }
+      }
+    }
+  }

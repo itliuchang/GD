@@ -1,0 +1,54 @@
+@import '../../public/style/main.less';
+.ArticleList{
+  ul{
+    li{
+      display: block;
+      padding:1rem;
+    }
+  }
+}
+.ArticleItem{
+  position: relative;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+  .collection{
+    position: absolute;
+    left:0;
+    top:1rem;
+    width:2rem;
+    text-align: center;
+    i{
+      color: #000;
+    }
+    .count{
+      font-size:@font-xs;
+    }
+  }
+  .content{
+    .title{
+      font-size: @font-lg;
+      line-height: @line-height;
+      margin-bottom: .5rem;
+    }
+    a{
+      font-size: @font-xs;
+      color: @color-text-lighter;
+      display: inline-block;
+      padding:.5rem;
+    }
+  }
+  .comment{
+    position: absolute;
+    right:0;
+    top:1rem;
+    .count{
+      font-size: @font-xs;
+      color: @color-text-lighter;
+      margin-left: .5rem;
+    }
+  }
+  i{
+    font-size: @font-xs;
+    color: @color-text-lighter;
+  }
+}

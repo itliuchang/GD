@@ -1,0 +1,32 @@
+@import '../../public/style/main.less';
+.home-top{
+  width:100%;
+  ul{
+    display: inline-block;
+    margin:0;
+    &.fl{
+      float: left;
+    }
+    &.fr{
+      float: right;
+    }
+    li{
+      float:left;
+      padding:1em;
+      padding-bottom:.5rem;
+      img{
+        &.profilePhoto{
+          width:1.2rem;
+          width:1.2rem;
+          border-radius: 100%;
+        }
+      }
+      a{
+        font-size:@font-base;
+        &.act{
+          color: @color-active;
+        }
+      }
+    }
+  }
+}

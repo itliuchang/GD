@@ -1,0 +1,83 @@
+[
+  {
+    "method": "get",
+    "url": "/users/:id",
+    "response": {
+      "id": 1,
+      "name": "tom",
+      "level": 3
+    }
+  },
+  {
+    "method":"get",
+    "url":"/articlelist/:type",
+    "response":{
+      "list":[
+        {
+          "id":"1",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"2",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"3",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"4",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"1",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"2",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"3",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        },
+        {
+          "id":"4",
+          "title":"{{this.params.type}}",
+          "lookNum":"1000",
+          "replyNum":"100",
+          "createTime":"1459072370000",
+          "tags":["设计","ps"]
+        }
+      ]
+    }
+  }
+]

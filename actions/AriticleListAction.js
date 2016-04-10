@@ -13,7 +13,7 @@ export function fetchArticleList(params) {
 
         dispatch(fetchArticleListStart(params));
         return fetchie
-            .get('http://localhost:1234/articlelist/'+params.type)
+            .get('/articlelist/'+params.type)
             .query(params)
             .then(res => {
                 console.log(res)
